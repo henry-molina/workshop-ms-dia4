@@ -11,7 +11,7 @@ public class CalculadoraServiceTest {
 	@Test
 	public void testSuma() {
 		CalculadoraService d = new CalculadoraService();
-		assertEquals("La suma de 1 + 2 = 3", d.suma(1, 2));
+		assertEquals("La suma de 1+2=3", Integer.valueOf(3),d.suma(1, 2));
 	}
 
 }
