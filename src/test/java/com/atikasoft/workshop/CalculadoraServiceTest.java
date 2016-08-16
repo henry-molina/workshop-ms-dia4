@@ -12,7 +12,6 @@ public class CalculadoraServiceTest {
 	public void testSuma() {
 		CalculadoraService d = new CalculadoraService();
 		assertEquals("La suma de 1 + 2 = 3", d.suma(1, 2));
-
 	}
 
 }
